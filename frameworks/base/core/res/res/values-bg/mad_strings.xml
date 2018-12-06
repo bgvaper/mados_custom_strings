@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2016, 2017 The madOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="permlab_preventpower">Сменете мястото на бутона за включване</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_preventpower">Разрешете на приложението да промени мястото на бутона за включване.</string>
+
+    <!-- mad custom power menu -->
+    <!-- Button to reboot the phone in reboot menu -->
+    <string name="reboot_reboot">Рестарт</string>
+    <!-- Button to reboot the phone into recovery in reboot menu-->
+    <string name="reboot_recovery">Възстановяване</string>
+    <!-- Button to soft reboot the device in reboot menu -->
+    <string name="reboot_soft">Лек рестарт</string>
+    <!-- Reboot Confirmation Dialog. -->
+    <string name="reboot_confirm" product="tablet">Вашият таблет ще бъде рестартиран.</string>
+    <string name="reboot_confirm" product="default">Телефонът ще се рестартира.</string>
+    <!-- Reboot Progress Dialog. This is shown if the user chooses to reboot the phone. -->
+    <string name="reboot_progress">Рестартиране\u2026</string>
+    <!-- label for item that screenshots in phone options dialog -->
+    <string name="global_action_screenshot">Снимка на екрана</string>
+    <!-- Powermenu Torch -->
+    <string name="global_action_torch">Фенерче</string>
+    <!-- Powermenu current user -->
+    <string name="global_action_current_user">Текущ режим</string>
+    <!-- Powermenu on-the-go -->
+    <string name="global_action_onthego">Режим в движение</string>
+
+    <!-- Fast Charge -->
+    <string name="fc_active_notification_title">Настройки за бързо зареждане</string>
+    <string name="fc_active_notification_message">"Докоснете за бързо зареждане"</string>
+
+    <!-- Long-press back kill application -->
+    <string name="app_killed_message">Приложението е премахнато</string>
+
+    <!-- Notify user that they are in Lock-to-app (for devices without navbar) -->
+    <string name="lock_to_app_toast_no_navbar">За да освободите този екран, докоснете и задръжте бутона "Назад".</string>
+
+    <string name="singlehandmode_click_hint_message">Докоснете екрана в края, за да излезете от изгледа на мини екран</string>
+</resources>
